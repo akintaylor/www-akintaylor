@@ -1,8 +1,0 @@
-@font-face {
-    font-family: PressStart2PRegular;
-    src: local('./fonts/PressStart2P-Regular.ttf');
-}
-
-.profile {
-    font-family: PressStart2PRegular;
-}
