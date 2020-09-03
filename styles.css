@@ -19,3 +19,16 @@ li a {
 .flag {
     font-size: 15px;
 }
+
+#copy-email {
+    font-size: 9px;
+    font-family: PressStart2P-Regular;
+}
+
+#copy-email:hover {
+    cursor: pointer;
+}
+
+.email {
+    line-height: 20px;
+}
