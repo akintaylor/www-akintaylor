@@ -23,10 +23,21 @@ li a {
 #copy-email {
     font-size: 9px;
     font-family: PressStart2P-Regular;
+    border-radius: 0;
+    outline: none;
+    padding: 5px;
 }
 
 #copy-email:hover {
     cursor: pointer;
+}
+
+#email-address {
+    outline: none;
+    width: 250px;
+    padding: 10px;
+    font-family: PressStart2P-Regular;
+    font-size: 9.5px;
 }
 
 .email {
