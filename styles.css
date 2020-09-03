@@ -3,11 +3,19 @@
     src: url('./fonts/PressStart2P-Regular.ttf');
 }
 
-.profile {
+body {
     font-family: PressStart2P-Regular;
-    font-size: 10px;
+    font-size: 9px;
+}
+
+li {
+    margin: 10px 0 0 0;
+}
+
+li a {
+    color: #000000;
 }
 
 .flag {
-    font-size: 20px;
+    font-size: 15px;
 }
