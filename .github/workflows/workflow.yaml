@@ -27,6 +27,7 @@ jobs:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
+      - run: pwd; ls -l
       - uses: actions/download-artifact@v3
         with:
           name: build
