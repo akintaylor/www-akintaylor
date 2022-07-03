@@ -30,7 +30,6 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           name: build
-      - run: pwd; ls -l
       - name: Release to Amazon S3
         uses: reggionick/s3-deploy@v3
         with:
