@@ -33,7 +33,7 @@ jobs:
       - name: Release to Amazon S3
         uses: reggionick/s3-deploy@v3
         with:
-          folder: _build
+          folder: _build/dirhtml
           bucket: ${{ secrets.S3_BUCKET }}
           bucket-region: ${{ secrets.S3_BUCKET_REGION }}
           dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
